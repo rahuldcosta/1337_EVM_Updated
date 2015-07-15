@@ -4,6 +4,8 @@ public class OnLamp {
 
 	public OnLamp() {
 		// TODO Auto-generated constructor stub
+		
+		
 	}
 
 }
