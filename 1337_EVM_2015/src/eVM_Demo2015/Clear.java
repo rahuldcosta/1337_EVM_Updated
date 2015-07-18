@@ -25,7 +25,11 @@ public class Clear {
 		{
 			cc.resetcounters();
 			
-			cinfolist.clear();
+			for(int j=0;j<cinfolist.size();j++)
+			{
+				cinfolist.get(j).resetmycount();
+			}
+		//	cinfolist.clear();
 		}
 		
 		

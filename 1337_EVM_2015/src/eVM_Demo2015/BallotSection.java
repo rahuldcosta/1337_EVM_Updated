@@ -18,11 +18,13 @@ public class BallotSection {
 		tb.pressTotalButton(c);
 	}
 	
-	public Boolean pressBallotButton()
+	public Boolean pressBallotButton(ControlUnitofEVM cu)
 	{
 		if(!bb.getVoteallowed())
 		{
+			System.out.println("BallotButton is Pressed");
 		bb.pressBallotButton();
+		cu.ds.Bl.switchlamp();
 		return true;
 		}
 		else
@@ -32,11 +34,12 @@ public class BallotSection {
 		}
 	}
 	
-	public void ReleaseBallotButton()
+	public void ReleaseBallotButton(ControlUnitofEVM cu)
 	{
 		if(bb.getVoteallowed())
-		
+		{
 		bb.releaseBallotButton();
+		cu.ds.Bl.switchlamp();}
 		else
 			System.out.println("Already Released BallotButton");
 	}

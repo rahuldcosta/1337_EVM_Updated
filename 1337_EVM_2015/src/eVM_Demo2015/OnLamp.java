@@ -13,7 +13,7 @@ public class OnLamp {
 		onstat=true;
 	}
 	
-	public void switchonlamp()
+	public void switchlamp()
 	{
 
 		if(onstat)

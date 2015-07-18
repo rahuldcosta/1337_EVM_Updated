@@ -39,9 +39,9 @@ public class ResultSection {
 		cp.PressClosePollButton();
 	}
 	
-	public void ReOpenPollButton()
+	public void OpenPollButton()
 	{
-		cp.repopenPoll();
+		cp.startPoll();
 	}
 
 }

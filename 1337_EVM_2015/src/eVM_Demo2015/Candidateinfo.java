@@ -13,6 +13,18 @@ public class Candidateinfo {
 		myvotes=0;
 	//	cb.setMaskOff();
 	}
+	
+	
+	public void showdetailsofcandidate()
+	{
+		System.out.printf("Name:- "+ name+" Symbol:- "+symbol);
+	}
+	
+	
+	public void resetmycount()
+	{
+		this.myvotes=0;
+	}
 
 
 	
