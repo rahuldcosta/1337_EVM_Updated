@@ -19,11 +19,13 @@ public class OnLamp {
 		if(onstat)
 		{	onstat=false;
 			System.out.println("Beep...............");
-		
+			System.out.println("On Lamp Off .....");
 		}
 		else
+		{
 			onstat=true;
-	}
+			System.out.println("On Lamp Glowing .....");
+		}}
 	
 	
 

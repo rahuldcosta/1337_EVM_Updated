@@ -6,7 +6,8 @@ public class BusyLamp {
 	
 	public BusyLamp() {
 		// TODO Auto-generated constructor stub
-		Lamp=true;
+		Lamp=false;
+		//System.out.println("Busy Lamp Glowing .....");
 //		System.out.println("Currently System is Busy");
 	}
 	
@@ -14,20 +15,22 @@ public class BusyLamp {
 	public Boolean getLamp() {
 		return Lamp;
 	}
-	public void setLamp(Boolean lamp) {
-		Lamp = lamp;
-	}
+	
+	
+	
 	
 	public void switchlamp()
 	{
 		if(Lamp)
 		{	Lamp=false;
 			System.out.println("Beep...............");
+			System.out.println("Busy Lamp Off .....");
 		
 		}
-		else
+		else{
 			Lamp=true;
-		
+			System.out.println("Busy Lamp Glowing .....");
+		}
 	}
 	
 	

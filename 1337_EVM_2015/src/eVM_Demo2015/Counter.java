@@ -12,8 +12,9 @@ public class Counter {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void addvote()
+	public void addvote(Candidateinfo ci)
 	{
+		ci.myvotes++;
 		tvotes++;
 	}
 	

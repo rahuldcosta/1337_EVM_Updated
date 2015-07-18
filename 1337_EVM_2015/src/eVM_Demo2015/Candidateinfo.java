@@ -2,8 +2,18 @@ package eVM_Demo2015;
 
 public class Candidateinfo {
 
-	public Candidateinfo() {
-		// TODO Auto-generated constructor stub
+	String name;
+	String symbol;
+	int myvotes;
+	//CandidateButton cb;
+	public Candidateinfo(String name, String symbol) {
+		
+		this.name = name;
+		this.symbol = symbol;
+		myvotes=0;
+	//	cb.setMaskOff();
 	}
 
+
+	
 }
